@@ -1,0 +1,107 @@
+html{
+    box-sizing: border-box;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+
+.section_1{
+    background-color: #1F2937;
+    padding: 100px;
+
+}
+.header{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+}
+
+
+.header img{
+    max-width: 100px;
+    max-height: 100px;
+    flex-basis: 100%;
+    margin-bottom: 32px;
+}
+
+.section_1 ul{
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    flex-basis: 100%;
+    margin-bottom: 32px;
+}
+
+.section_1 ul li{
+    padding: 20px;
+    font-size: 20px;
+
+}
+
+.section_1 h1{
+    font-size: 48px;
+}
+
+.header_part2{
+    display: flex;
+    max-width: 90%;
+}
+
+.flex_item, .flex_itema, .flex_item_1, .flex_item_2{
+    flex-basis: 100%;
+    border: 10px solid lime;
+}
+
+.flex_item_1{
+    text-align: center;
+    color: white;
+    
+}
+
+.flex_item_2{
+    background-image: url("./img/satellite.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.header_part2 button{
+    background-color: #3882F6;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+.header_part2 button:hover{
+    background-color: red;
+    transform:scale(1.3,1.3);
+    -webkit-transform:scale(1.3,1.3);
+    -moz-transform:scale(1.3,1.3);
+}
+
+.section_2{
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    max-width: 90%;
+}
+
+.flex_sect2{
+    display: flex;
+}
+.flex2_item{
+    flex-basis: 100%;
+    padding: 10px;
+    background-color: red;
+    border: 10px solid yellow;
+    margin: 10px;
+}
+
+.flex2_item img{
+    max-width: 100%;
+    max-height: 100%;
+}
