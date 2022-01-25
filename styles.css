@@ -51,7 +51,6 @@ html{
 
 .flex_item, .flex_itema, .flex_item_1, .flex_item_2{
     flex-basis: 100%;
-    border: 10px solid lime;
 }
 
 .flex_item_1{
@@ -92,12 +91,14 @@ html{
 
 .flex_sect2{
     display: flex;
+    justify-content: center;
+    padding: 0px 100px 0px 100px;
 }
 .flex2_item{
     flex-basis: 100%;
     padding: 10px;
-    background-color: red;
-    border: 10px solid yellow;
+    background-color: white;
+    border: 10px solid blue;
     margin: 10px;
 }
 
